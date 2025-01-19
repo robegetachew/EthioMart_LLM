@@ -16,7 +16,7 @@ dotenv (for loading environment variables)
 asyncio (for handling asynchronous operations)
 You can install the required libraries using:
 pip install -r requirements.txt
-Setup
+Setup 
 Create a .env file: Ensure you have a .env file with your Telegram API credentials. You can obtain these by creating a bot via BotFather.
 TG_API_ID=your_api_id
 TG_API_HASH=your_api_hash
