@@ -1,0 +1,8 @@
+# Ignore virtual environment directories
+.env
+etvenv/
+github.ipynb
+scripts/__pycache__
+notebooks/scraping_session.session
+notebooks/processed_telegram_data.csv
+scripts/telegram_data_ingestion.py
