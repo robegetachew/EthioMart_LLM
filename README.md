@@ -27,7 +27,6 @@ Run the Telegram Scraper: The scraper collects data from selected Telegram chann
 python scrape_telegram_data.py
 
 #Data Preprocessing: Preprocess the scraped data by filtering for Amharic messages and tokenizing them. This step cleans and prepares the data for entity labeling.
-
 #Labeling Entities: Manually label the entities in a subset of the dataset following the CoNLL format. Entities include:
 B-PRODUCT: Beginning of a product entity
 I-PRODUCT: Inside a product entity
