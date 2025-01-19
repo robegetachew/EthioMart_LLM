@@ -15,7 +15,6 @@ pandas (for data manipulation)
 re (for regular expressions)
 dotenv (for loading environment variables)
 asyncio (for handling asynchronous operations)
-
 You can install the required libraries using:
 pip install -r requirements.txt
 Setup
@@ -25,7 +24,6 @@ TG_API_HASH=your_api_hash
 PHONE=your_phone_number
 Run the Telegram Scraper: The scraper collects data from selected Telegram channels. To run it, execute the following script:
 python scrape_telegram_data.py
-
 #Data Preprocessing: Preprocess the scraped data by filtering for Amharic messages and tokenizing them. This step cleans and prepares the data for entity labeling.
 #Labeling Entities: Manually label the entities in a subset of the dataset following the CoNLL format. Entities include:
 B-PRODUCT: Beginning of a product entity
