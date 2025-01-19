@@ -29,7 +29,6 @@ python scrape_telegram_data.py
 #Data Preprocessing: Preprocess the scraped data by filtering for Amharic messages and tokenizing them. This step cleans and prepares the data for entity labeling.
 
 #Labeling Entities: Manually label the entities in a subset of the dataset following the CoNLL format. Entities include:
-
 B-PRODUCT: Beginning of a product entity
 I-PRODUCT: Inside a product entity
 B-LOC: Beginning of a location entity
@@ -38,7 +37,6 @@ B-PRICE: Beginning of a price entity
 I-PRICE: Inside a price entity
 O: Other tokens that don't belong to any entity
 The labeled data is stored in a plain text file (labeled_telegram_product_price_location.txt).
-
 #Files
 scrape_telegram_data.py: Script to scrape data from Telegram channels.
 preprocess_data.py: Preprocesses the raw data (filters for Amharic text, tokenizes, and normalizes).
