@@ -38,3 +38,4 @@ scrape_telegram_data.py: Script to scrape data from Telegram channels.
 preprocess_data.py: Preprocesses the raw data (filters for Amharic text, tokenizes, and normalizes).
 labeled_telegram_product_price_location.txt: A text file containing labeled entities in the CoNLL format.
 requirements.txt: List of required Python libraries.
+ 
