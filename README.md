@@ -42,7 +42,7 @@ I-PRICE: Inside a price entity
 O: Other tokens that don't belong to any entity
 The labeled data is stored in a plain text file (labeled_telegram_product_price_location.txt).
 
-#Files
+#File
 scrape_telegram_data.py: Script to scrape data from Telegram channels.
 preprocess_data.py: Preprocesses the raw data (filters for Amharic text, tokenizes, and normalizes).
 labeled_telegram_product_price_location.txt: A text file containing labeled entities in the CoNLL format.
