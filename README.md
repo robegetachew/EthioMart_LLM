@@ -9,7 +9,6 @@ The process is divided into the following key steps:
 4. Output: Saving the labeled data in the CoNLL format for future use in machine learning models.
 #Prerequisites
 Python 3.7 or higher
-
 #Required libraries:
 telethon (for Telegram scraping)
 pandas (for data manipulation)
