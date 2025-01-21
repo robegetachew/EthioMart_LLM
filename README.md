@@ -5,7 +5,6 @@ This project focuses on extracting and labeling data from Ethiopian-based Telegr
 The process is divided into the following key steps:
 1. Data Collection: Scraping data from Ethiopian Telegram e-commerce channels using a custom-built scraper.
 2. Data Preprocessing: Cleaning and formatting data, filtering for Amharic text, tokenizing, and normalizing the messages.
-
 3. Entity Labeling: Manually labeling a subset of messages to identify and categorize entities (products, prices, locations) using the CoNLL format.
 4. Output: Saving the labeled data in the CoNLL format for future use in machine learning models.
 #Prerequisites
