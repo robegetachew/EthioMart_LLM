@@ -8,7 +8,6 @@ The process is divided into the following key steps:
 
 3. Entity Labeling: Manually labeling a subset of messages to identify and categorize entities (products, prices, locations) using the CoNLL format.
 4. Output: Saving the labeled data in the CoNLL format for future use in machine learning models.
-
 #Prerequisites
 Python 3.7 or higher
 
